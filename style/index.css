@@ -93,6 +93,42 @@ p,h1,h2,h3,h4,ul,ol,li{
     font-size:24px;
 }
 
+.left-big-area {
+    position:relative;
+    margin:40px 40px 40px 60px;
+    height:600px;
+    border:2px solid ;
+    border-top-width:180px;
+    border-left-width:37px;
+    border-image-source:url(../imgs/left-left-border-frame.png);
+    border-image-slice:180 2 2 37;
+    border-image-repeat: round;
+}
+
+.left-big-area .left-big-area-tab{
+    position:absolute;
+    left:-37px;
+    top:-130px;
+    width:37px;
+    height:143px;
+    color:#fff;
+    font-size:24px;
+}
+
+.left-big-area .left-big-area-tab>span{
+    position:absolute;
+    display: inline-block;
+    width:100%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.left-big-area .left-big-area-content{
+    margin-top:-180px;
+    background:#ff4400;
+    padding:20px;
+}
+
 .content .right{
     height:800px;
     width:28.7%;
